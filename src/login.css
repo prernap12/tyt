@@ -1,0 +1,94 @@
+.App {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .bg{
+      background-color: rgb(3, 3, 50);
+     
+     background-repeat: no-repeat;
+     height: 100vh;
+     display: flex;
+     justify-content: space-between;
+  }
+  .image-logo h2{
+    text-align: center;
+    color: #ccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    min-height: 40px;
+    
+    margin:0px 5px 10px 150px ;
+  }
+  .login-form {
+    padding: 40px 100px 0px 10px;
+    margin: 90px;
+    border: 1px solid rgb(8, 7, 7);
+    box-shadow: 5px 5px 3px 0px rgba(242, 239, 239, 0.75);
+    background-image: url(../public/image.png);
+     background-size: 100% 100%;
+
+  }
+  .bg .image-logo img {
+    padding-top: 50px  0px 0px 0px;
+    height: 300px;
+    width: 350px;
+    margin:10px 20px 20px 200px ;
+  }
+  .image-logo{
+    margin-top: 110px;
+  }
+  
+  .login-form label {
+    display: center;
+    margin-bottom: 8px;
+    color: #ccc;
+    font-size: 25px;
+    margin-left: 20px;
+
+  }
+  .login-form h2{
+    text-align: center;
+    color: #ccc;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 50px;
+    font-style:italic;
+    /* padding-top: 50px; */
+  }
+  /* .login-form form{
+    padding: 50px 0px 0px 10px;
+    margin: 90px;
+  } */
+
+  .login-form input {
+    padding: 8px 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    margin-left: 20px;
+
+  }
+  .error-message{
+    color: #b10e1c;
+    
+  }
+  .login-form button {
+    padding: 10px 20px;
+    background-color: #eaeef2;
+    color: rgb(19, 19, 19);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 200px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+  }
+  
+  .login-form button:hover {
+    background-color: #0056b3;
+  }
+  

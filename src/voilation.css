@@ -1,0 +1,119 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Header styles */
+h1 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+    margin-left: 18rem;
+}
+
+/* Fines section */
+.fines {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.fine {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.fine h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+label {
+    /* display: block; */
+    font-size: 0.95em;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+/* Checkbox styling */
+.fine input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+
+
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Keeps the buttons on opposite ends */
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #ffffff;
+    background-color: #071d34;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+  }
+  
+  .cancel-button {
+    margin-left: auto; /* Pushes the cancel button to the far right */
+  }
+  
+/* Buttons */
+/* button[type="submit"], .cancel-btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+    justify-content: flex-end;
+
+}
+
+ button[type="cancel"], .cancel{
+    background-color: #ffffff;
+    justify-content: end;
+    margin-left: auto  ;
+} */
+
+.cancel:hover {
+    background-color: #c9302c;
+}
+
+/* Footer
+.footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 20px;
+} */
